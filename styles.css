@@ -10,7 +10,7 @@ main.holygrail-container {
 }
 
 main header.holygrail-header {
-    height: 10vh;
+    height: 9vh;
     text-align: center;
     background-color: pink;
 }
@@ -31,4 +31,37 @@ section div.content {
     width: 55%;
     text-align: center;
     background-color: lightgreen;
+}
+
+section div.right-part {
+    text-align: center;
+    width: 20%;
+    background-color: orange;
+}
+
+main footer.holygrail-footer {
+    height: 9vh;
+    text-align: center;
+    background-color: cyan;
+}
+
+@media screen and (max-width:600px) {
+    main section.mid-page {
+
+        flex-direction: column;
+        width: 100%;
+    }
+
+    section div.left-part {
+        width: 100%;
+    }
+
+    section div.right-part {
+        width: 100%;
+    }
+
+    section div.content {
+        width: 100%;
+        height: 100%;
+    }
 }
